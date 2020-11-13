@@ -27,13 +27,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasAcquisition">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasAcquisition"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Acquisition"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Acquisition"/>
     </owl:ObjectProperty>
     
 
@@ -52,13 +46,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasHeight">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasDimension"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasHeight"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Height"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Height"/>
     </owl:ObjectProperty>
     
 
@@ -68,13 +57,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasNationality">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasNationality"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Nationality"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Nationality"/>
     </owl:ObjectProperty>
     
 
@@ -84,13 +67,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasType">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasType"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Type"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Type"/>
     </owl:ObjectProperty>
     
 
@@ -99,13 +76,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasWidth">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasDimension"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#hasWidth"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Width"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Width"/>
     </owl:ObjectProperty>
     
 
@@ -115,13 +87,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#locatedAt">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#locatedAt"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Location"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Location"/>
     </owl:ObjectProperty>
     
 
@@ -131,13 +97,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#classifiedAs">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#classifiedAs"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Classification"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Classification"/>
     </owl:ObjectProperty>
     
 
@@ -147,13 +107,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#createdBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#createdBy"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Artist"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Artist"/>
     </owl:ObjectProperty>
     
 
@@ -163,23 +117,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#hasImage">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#hasImage"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Image"/>
-            </owl:Restriction>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Image"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Dimension"/>
-    </rdf:Description>
     
 
 
@@ -348,7 +287,6 @@
     <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Artwork#Acquisition"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/untitled-ontology-19#Artwork"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </rdf:Description>
