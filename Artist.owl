@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/untitled-ontology-17"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasBiography -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasBiography">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasDescription"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Biography"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasBirthPlace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasBirthPlace">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasDeathPlace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasDeathPlace">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasGender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasGender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Gender"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasImage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasImage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasNationality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasNationality">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Nationality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasOccupation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasOccupation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Occupation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasProduced -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasProduced">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artwork"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasQuote -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasQuote">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasDescription"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Quote"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#beginDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#beginDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#birthDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#birthDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#deathDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#deathDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#endDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#genderLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#genderLabel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Gender"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasArtworkID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasArtworkID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artwork"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasHeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasImageURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasImageURL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasLocationID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasLocationID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasNationalityID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasNationalityID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Nationality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#hasText">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#occupationName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#occupationName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Occupation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artist">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Artwork">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Biography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Biography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Description"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Description">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Gender">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Image">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Location">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Nationality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Nationality">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Occupation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Occupation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Quote -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Quote">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil&apos;spc/ontologies/2020/10/Artist#Description"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
