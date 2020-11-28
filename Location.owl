@@ -27,9 +27,9 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Museum"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Site"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
     </owl:ObjectProperty>
     
@@ -52,9 +52,9 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Country"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Museum"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Site"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -114,6 +114,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
+    
+
+
     <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
@@ -138,15 +144,2851 @@
     
 
 
-    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Site -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Site"/>
-    
-
-
     <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Alabama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Alabama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alabama</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Alaska -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Alaska">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Albany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Albany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albany</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Annapolis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Annapolis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annapolis</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Arizona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Arizona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arizona</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Arkansas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Arkansas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arkansas</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Atlanta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Atlanta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlanta</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Augusta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Augusta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Augusta</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Austin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Austin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austin</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#BatonRouge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#BatonRouge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baton Rouge</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Bismarck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Bismarck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bismarck</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Boise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Boise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boise</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Boston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Boston">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boston</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#California -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#California">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#CarsonCity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#CarsonCity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carson City</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Charleston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Charleston">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charleston</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Cheyenne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Cheyenne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheyenne</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Colorado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Colorado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colorado</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Columbia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Columbia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Columbia</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Columbus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Columbus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Columbus</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Concord -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Concord">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concord</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Connecticut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Connecticut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connecticut</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Delaware -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Delaware">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delaware</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Denver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Denver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denver</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DesMoines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DesMoines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Des Moines</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">District Of Columbia</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Dover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Dover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dover</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Florida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Florida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florida</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Frankfort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Frankfort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frankfort</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Georgia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Georgia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgia</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Harrisburg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Harrisburg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harrisburg</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Hartford -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Hartford">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hartford</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawaii</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Helena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Helena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helena</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Honolulu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Honolulu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honolulu</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Idaho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Idaho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idaho</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Illinois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Illinois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illinois</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Indiana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Indiana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indiana</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Indianapolis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Indianapolis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indianapolis</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Iowa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Iowa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iowa</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Jackson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Jackson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#JeffersonCity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#JeffersonCity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jefferson City</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Juneau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Juneau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juneau</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Kansas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Kansas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kansas</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Kentucky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Kentucky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kentucky</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Lansing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Lansing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lansing</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Lincoln -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Lincoln">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lincoln</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LittleRock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LittleRock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Little Rock</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#101"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#110"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Cheyenne"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Wyoming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#203"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#205"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#208"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#209"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#102"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#210"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#301"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#302"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#303"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#304"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#305"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#306"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#307"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#308"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#309"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#103"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#310"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#401"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#402"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#403"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#404"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#405"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_36">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#406"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#407"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_38 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_38">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#408"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_39 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_39">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#409"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#104"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_40">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#410"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_41">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#501"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_42 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_42">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#502"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_43 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_43">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#503"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_44">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#504"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_45 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_45">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#505"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_46 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_46">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#506"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_47 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_47">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#507"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_48">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#508"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_49 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_49">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#509"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#105"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_50">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#510"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_51 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_51">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Alabama"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montgomery"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_52 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_52">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Alaska"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Juneau"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_53 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_53">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Arizona"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Phoenix"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_54">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Arkansas"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LittleRock"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_55 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_55">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#California"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Sacramento"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_56 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_56">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Colorado"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Denver"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_57 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_57">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Connecticut"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Hartford"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_58 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_58">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Delaware"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Dover"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_59 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_59">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Florida"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Tallahassee"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#106"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_60 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_60">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Atlanta"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Georgia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_61 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_61">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Hawaii"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Honolulu"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_62 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_62">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Boise"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Idaho"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_63 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_63">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Illinois"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Springfield"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_64 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_64">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Indiana"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Indianapolis"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_65 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_65">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DesMoines"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Iowa"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_66">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Kansas"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Topeka"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_67 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_67">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Frankfort"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Kentucky"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_68 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_68">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#BatonRouge"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Louisiana"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_69 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_69">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Augusta"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Maine"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#107"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_70 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_70">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Annapolis"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Maryland"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_71 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_71">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Boston"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Massachusetts"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_72 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_72">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Lansing"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Michigan"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_73 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_73">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Minnesota"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SaintPaul"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_74 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_74">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Jackson"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Mississippi"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_75 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_75">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#JeffersonCity"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Missouri"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_76">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Helena"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montana"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_77 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_77">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Lincoln"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nebraska"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_78 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_78">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#CarsonCity"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nevada"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_79 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_79">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Concord"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewHampshire"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#108"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_80 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_80">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewJersey"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Trenton"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_81 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_81">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewMexico"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SantaFe"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_82 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_82">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Albany"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewYork"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_83 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_83">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NorthCarolina"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Raleigh"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_84 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_84">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Bismarck"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NorthDakota"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_85 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_85">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Columbus"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Ohio"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_86 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_86">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Oklahoma"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#OklahomaCity"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_87 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_87">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Oregon"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Salem"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_88 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_88">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Harrisburg"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Pennsylvania"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_89">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Providence"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#RhodeIsland"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#DistrictOfColumbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#109"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_90 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_90">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Columbia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SouthCarolina"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_91 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_91">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Pierre"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SouthDakota"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_92 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_92">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nashville"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Tennessee"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_93 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_93">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Austin"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Texas"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_94 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_94">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SaltLakeCity"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Utah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_95">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montpelier"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Vermont"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_96 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_96">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Richmond"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Virginia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_97">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Olympia"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Washington"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_98">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Charleston"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WestVirginia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#LocationID_99">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Location"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Madison"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA"/>
+        <hasLocation rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Wisconsin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Louisiana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Louisiana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Louisiana</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Madison -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Madison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madison</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Maine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Maine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Maryland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Maryland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maryland</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Massachusetts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Massachusetts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massachusetts</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Michigan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Michigan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michigan</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Minnesota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Minnesota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minnesota</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Mississippi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Mississippi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mississippi</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Missouri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Missouri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Missouri</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montana</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montgomery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montgomery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montgomery</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montpelier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Montpelier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montpelier</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nashville -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nashville">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nashville</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_1</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> English</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_10</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> French</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_11</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> German</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_12</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Italian</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_13</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dutch</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_14</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_15</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_2</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Danish</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_3</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Finnish</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_4</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Norwegian</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_5</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Swedish</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_6</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Estonian</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_7</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Latvian</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_8</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Lithuanian</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NationalityID_9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nationality"/>
+        <hasNationalityID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NationalityID_9</hasNationalityID>
+        <hasNationalityName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Austrian</hasNationalityName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nebraska -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nebraska">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nebraska</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nevada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Nevada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nevada</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewHampshire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewHampshire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Hampshire</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewJersey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewJersey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Jersey</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewMexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewMexico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Mexico</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewYork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NewYork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NorthCarolina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NorthCarolina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North Carolina</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NorthDakota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#NorthDakota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North Dakota</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Ohio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Ohio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohio</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Oklahoma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Oklahoma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oklahoma</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#OklahomaCity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#OklahomaCity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oklahoma City</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Olympia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Olympia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olympia</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Oregon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Oregon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregon</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Pennsylvania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Pennsylvania">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennsylvania</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Phoenix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Phoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phoenix</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Pierre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Pierre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pierre</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Providence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Providence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Providence</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Raleigh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Raleigh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raleigh</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#RhodeIsland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#RhodeIsland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhode Island</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Richmond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Richmond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richmond</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Sacramento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Sacramento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sacramento</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SaintPaul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SaintPaul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint Paul</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Salem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Salem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salem</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SaltLakeCity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SaltLakeCity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salt Lake City</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SantaFe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SantaFe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santa Fe</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SmithsonianAmericanArtMuseum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Museum"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smithsonian American Art Museum</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SouthCarolina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SouthCarolina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Carolina</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SouthDakota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#SouthDakota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Dakota</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Springfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Springfield">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Springfield</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Tallahassee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Tallahassee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tallahassee</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Tennessee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Tennessee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennessee</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Texas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Texas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texas</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Topeka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Topeka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topeka</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Trenton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Trenton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trenton</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Country"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Utah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Utah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utah</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Vermont -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Vermont">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermont</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Virginia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Virginia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virginia</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Washington -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Washington">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WashingtonD.C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#City"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington D.C</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WestVirginia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#WestVirginia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West Virginia</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Wisconsin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Wisconsin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wisconsin</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Wyoming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Wyoming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#State"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wyoming</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#102">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">102</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">103</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#104">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#105">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">105</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#106">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">106</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#107">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">107</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">108</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#109">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">109</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#201">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#202 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#202">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#203 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#203">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#204">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">204</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#205">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">205</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#206 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#206">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#207 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#207">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#208 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#208">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">208</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#209 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#209">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">209</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#210 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#210">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">301</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#302 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#302">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">302</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">303</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#304 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#304">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">304</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#305 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#305">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">305</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#306 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#306">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">306</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#307 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#307">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">307</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#308 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#308">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">308</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#309 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#309">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">309</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#310 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#310">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">401</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#402 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#402">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#403 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#403">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">403</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#404 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#404">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">404</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#405 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#405">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">405</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#406 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#406">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">406</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#407 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#407">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">407</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#408 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#408">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">408</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#409 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#409">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">409</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#410 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#410">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Floor"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">501</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#502 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#502">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">502</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#503 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#503">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">503</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#504 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#504">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">504</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#505 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#505">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">505</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#506 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#506">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">506</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#507 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#507">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">507</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#508 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#508">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">508</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#509 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#509">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">509</hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#510 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#510">
+        <rdf:type rdf:resource="http://www.semanticweb.org/suyoghalikar/ontologies/2020/10/Location#Room"/>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">510</hasLabel>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
