@@ -4,7 +4,7 @@ ASU SER-531 class project.
 
 ## Details
 
-All there owl files are in Data folder.
+All three owl files are in Data folder.
 Application is in App folder.
 
 ## Requirements
