@@ -15,7 +15,7 @@ Application is in App folder.
 ## Running the project
 
 1. Clone the repository.
-2. Import the App/backend folder in IDE (IntelliJ IDEA).
+2. Import the App/backend/smart-tour folder in IDE (IntelliJ IDEA).
 3. Run the file SmartTourApplication.java under src/main.
 
 4. Move to App/frontend/ folder.
