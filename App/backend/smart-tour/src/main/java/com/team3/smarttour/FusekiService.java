@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class FusekiService {
 
-    static String locationServiceEndpoint = "http://ec2-54-203-213-152.us-west-2.compute.amazonaws.com:3030/LocationDS/query";
+    static String artworkServiceEndpoint = "http://ec2-13-52-214-192.us-west-1.compute.amazonaws.com:3030/ArtworkDS/query";
 
     public String createArtworksQuery(String floor, String room) {
         String str = "\n" +
@@ -186,12 +186,12 @@ public class FusekiService {
 
     public List<Artwork> getArtworks(String floorName, String roomName) {
         String query = createArtworksQuery(floorName,roomName);
-        return loadArtwork(locationServiceEndpoint, query);
+        return loadArtwork(artworkServiceEndpoint, query);
     }
 
     public List<Artwork> getRecommendedArtworks(Artwork artwork) {
         String query = createRecommendationQuery(artwork);
-        return loadArtwork(locationServiceEndpoint, query);
+        return loadArtwork(artworkServiceEndpoint, query);
     }
 
 }
