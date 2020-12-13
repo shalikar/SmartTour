@@ -25,4 +25,4 @@ npm install
 npm start
 ```
 
-Now you should see a new window pop up in your browser. That's it! You have successfully ran the project.
+Now you should see a new window pop up in your browser. That's it!! You have successfully ran the project.
